@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: basanta4043/frontend-app:IMAGE_TAG
+          image: basanta4043/frontend-app:105c506
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
@@ -43,3 +43,4 @@ spec:
             limits:
               cpu: "200m"
               memory: "256Mi"
+
