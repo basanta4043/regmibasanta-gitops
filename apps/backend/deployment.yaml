@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: basanta4043/backend-app:IMAGE_TAG
+          image: basanta4043/backend-app:105c506
           imagePullPolicy: IfNotPresent
 
           ports:
@@ -58,3 +58,4 @@ spec:
             limits:
               cpu: "500m"
               memory: "512Mi"
+
